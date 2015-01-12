@@ -107,31 +107,31 @@ syn keyword erlangKeyword after begin case catch cond end fun if let of
 syn keyword erlangKeyword receive when try
 
 " Build-in-functions (BIFs)
-syn keyword erlangBIF abs alive apply atom_to_binary atom_to_list contained
+syn keyword erlangBIF abs apply atom_to_binary atom_to_list contained
 syn keyword erlangBIF binary_part binary_to_atom contained
 syn keyword erlangBIF binary_to_existing_atom binary_to_float contained
-syn keyword erlangBIF binary_to_integer bitstring_to_list contained
-syn keyword erlangBIF binary_to_list binary_to_term bit_size contained
-syn keyword erlangBIF byte_size check_old_code check_process_code contained
-syn keyword erlangBIF concat_binary date delete_module demonitor contained
+syn keyword erlangBIF binary_to_integer binary_to_list contained
+syn keyword erlangBIF binary_to_term bit_size contained
+syn keyword erlangBIF bitstring_to_list byte_size check_old_code check_process_code contained
+syn keyword erlangBIF date delete_module demonitor contained
 syn keyword erlangBIF disconnect_node element erase error exit contained
 syn keyword erlangBIF float float_to_binary float_to_list contained
 syn keyword erlangBIF garbage_collect get get_keys group_leader contained
 syn keyword erlangBIF halt hd integer_to_binary integer_to_list contained
-syn keyword erlangBIF iolist_to_binary iolist_size is_alive contained
+syn keyword erlangBIF iolist_size iolist_to_binary is_alive contained
 syn keyword erlangBIF is_atom is_binary is_bitstring is_boolean contained
 syn keyword erlangBIF is_float is_function is_integer is_list contained
-syn keyword erlangBIF is_number is_pid is_port is_process_alive contained
+syn keyword erlangBIF is_map is_number is_pid is_port is_process_alive contained
 syn keyword erlangBIF is_record is_reference is_tuple length link contained
 syn keyword erlangBIF list_to_atom list_to_binary contained
 syn keyword erlangBIF list_to_bitstring list_to_existing_atom contained
 syn keyword erlangBIF list_to_float list_to_integer list_to_pid contained
-syn keyword erlangBIF list_to_tuple load_module make_ref max min contained
+syn keyword erlangBIF list_to_tuple load_module make_ref map_size max min contained
 syn keyword erlangBIF module_loaded monitor monitor_node node contained
 syn keyword erlangBIF nodes now open_port pid_to_list port_close contained
-syn keyword erlangBIF port_command port_connect pre_loaded contained
-syn keyword erlangBIF process_flag process_flag process_info contained
-syn keyword erlangBIF process purge_module put register registered contained
+syn keyword erlangBIF port_command port_connect port_control pre_loaded contained
+syn keyword erlangBIF process_flag process_info contained
+syn keyword erlangBIF processes purge_module put register registered contained
 syn keyword erlangBIF round self setelement size spawn spawn_link contained
 syn keyword erlangBIF spawn_monitor spawn_opt split_binary contained
 syn keyword erlangBIF statistics term_to_binary throw time tl contained
